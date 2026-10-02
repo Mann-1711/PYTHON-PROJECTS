@@ -1,60 +1,54 @@
 # 🐍 PYTHON-PROJECTS
 
-A collection of my Python practice projects as I learn programming and build my problem-solving skills.
+> **A small practice space documenting my growth in Python.**
 
-This repository documents my progress from writing simple Python programs to building more structured, interactive projects.
+This repository contains the Python programs and mini-projects I build while learning programming from the ground up.
+
+The goal isn't to make every project perfect. The goal is to **learn a concept → build something → make mistakes → debug → improve**.
 
 ---
 
 ## 🚀 About This Repository
 
-This is my personal Python practice repository.
+I started this repository to turn the Python concepts I learn into actual programs instead of only following tutorials.
 
-I created these projects while learning Python fundamentals and experimenting with different programming concepts.
+The projects range from very small beginner exercises to more structured programs combining multiple concepts.
 
-The main goal is not to build perfect or production-ready software, but to **learn by building, making mistakes, debugging them, and improving over time.**
+As I learn new topics, this repository will continue to evolve.
 
-Some of the projects are very simple, while others combine multiple concepts together.
+### Current focus
 
----
-
-## 📚 What I'm Learning
-
-Through these projects, I am practicing:
-
-* 🐍 Python fundamentals
-* Variables and data types
-* User input and output
-* Conditional statements
-* `if`, `elif`, and `else`
-* Lists and tuples
-* Dictionaries and sets
-* Nested data structures
-* `for` and `while` loops
+* Python fundamentals
+* Problem-solving and programming logic
 * Functions
-* Basic problem solving
-* Debugging
-* Randomization
+* Loops
+* Data structures
 * Building small interactive programs
-* Git and GitHub
+* Debugging
+* Git & GitHub
 
 ---
 
-## 🛠️ Projects
+## 📂 Projects
 
-| Project                           | Description                                                  |
-| --------------------------------- | ------------------------------------------------------------ |
-| 🧮 `calculator.py`                | A basic calculator for performing arithmetic operations      |
-| 🎯 `Quiz_game.py`                 | A small question-and-answer quiz with score tracking         |
-| 📚 `manga_recommendation.py`      | Recommends manga based on genre, length and story preference |
-| 🎮 `mini_game.py`                 | A small Python-based game project                            |
-| 🎬 `movie_ticket.py`              | A simple movie-ticket/price calculation program              |
-| 🎥 `movies_list.py`               | Practice project involving a collection of movies            |
-| 🔢 `multiplier.py`                | A simple multiplication-based practice program               |
-| 🔎 `num_finder.py`                | A number-searching practice project                          |
-| 💰 `restaraunt_bill.py`           | Calculates a restaurant bill                                 |
-| ✊ `rock_paper_scissors.py`        | A Rock Paper Scissors game                                   |
-| 👨‍🎓 `student_record_manager.py` | A basic student-record management practice project           |
+| Project                             | What I Practiced                                 |
+| ----------------------------------- | ------------------------------------------------ |
+| 🧮 `calculator.py`                  | Arithmetic operations, input and conditionals    |
+| 🧮 `Function_Calculator.py`         | Functions, parameters and conditional logic      |
+| 🎯 `Quiz_game.py`                   | Loops, user input, conditions and score tracking |
+| 📚 `manga_recommendation.py`        | Nested conditions and user preferences           |
+| 🎮 `mini_game.py`                   | Game logic and randomization                     |
+| 🎬 `movie_ticket.py`                | Conditions and price calculation                 |
+| 🎥 `movies_list.py`                 | Lists and data handling                          |
+| 🔢 `multiplier.py`                  | Basic calculations and loops                     |
+| 🔎 `num_finder.py`                  | Number-based problem solving                     |
+| 🔢 `odd_even.py`                    | Functions and conditional logic                  |
+| 💰 `restaraunt_bill.py`             | Input, calculations and conditions               |
+| ✊ `rock_paper_scissors.py`          | Game logic, conditions and randomization         |
+| 🛒 `shooping_bill.py`               | Input, calculations and conditional logic        |
+| 👨‍🎓 `student_marks_calculator.py` | Functions, comparisons and basic data processing |
+| 👨‍🎓 `student_record_manager.py`   | Student data and structured information          |
+| 💵 `Usd_to_ruppes.py`               | Input, conversion and arithmetic                 |
 
 ---
 
@@ -62,35 +56,51 @@ Through these projects, I am practicing:
 
 ### 📚 Manga Recommendation System
 
-One of my early projects where I combined multiple conditional statements to create a recommendation system.
+One of my first larger Python projects.
 
-The program takes user preferences such as:
+It uses multiple user preferences and conditional statements to provide manga recommendations.
 
-* Genre
-* Manga length
-* Story mood
+Building this project helped me understand how individual Python concepts can be combined to create a more interactive program.
 
-and uses those choices to provide a recommendation.
+### ✊ Rock Paper Scissors
 
-This project helped me understand how multiple conditions can work together to create a more interactive program.
+A small game that helped me practice:
 
-### 🎮 Rock Paper Scissors
+* User input
+* Conditions
+* Randomization
+* Game logic
 
-A small interactive game that helped me practice user input, conditions and game logic.
+### 🧮 Function Calculator
 
-### 🧮 Calculator
+One of my newer projects focused on moving from writing everything procedurally toward using **functions**.
 
-One of my early projects for practicing arithmetic operations, user input and conditional logic.
+It helped me understand:
 
-### 👨‍🎓 Student Record Manager
+* Function definitions
+* Function calls
+* Parameters
+* Arguments
+* Conditional logic
+* Program flow
 
-A project focused on working with student information and practicing data organization.
+### 👨‍🎓 Student Marks Calculator
+
+A practice project built while learning functions.
+
+It calculates:
+
+* Total marks
+* Percentage
+* Highest marks
+* Lowest marks
+* Pass/Fail status
+
+This project represents my transition from simple programs toward breaking a problem into multiple functions.
 
 ---
 
 ## 📈 My Learning Journey
-
-I'm using this repository to track my progress as I learn Python.
 
 ### Stage 1 — Python Basics
 
@@ -98,8 +108,9 @@ Started with:
 
 * Variables
 * Data types
-* Input/output
-* Basic operators
+* Input and output
+* Arithmetic operators
+* Type conversion
 
 ### Stage 2 — Decision Making
 
@@ -119,7 +130,7 @@ Started working with:
 * Tuples
 * Dictionaries
 * Sets
-* Nested structures
+* Nested data structures
 
 ### Stage 4 — Loops
 
@@ -133,11 +144,17 @@ Started building programs using:
 
 ### Stage 5 — Functions
 
-Started breaking programs into reusable functions and learning how parameters and arguments work.
+Started breaking programs into smaller reusable pieces and learning:
 
-### Next Steps
+* Function definitions
+* Function calls
+* Parameters
+* Arguments
+* Return values
 
-I plan to continue improving my Python skills and gradually move toward:
+### 🔜 Next Steps
+
+My next goals are to gradually move toward:
 
 * Object-Oriented Programming
 * More advanced problem solving
@@ -145,25 +162,39 @@ I plan to continue improving my Python skills and gradually move toward:
 * SQL
 * Databases
 * AI/ML projects
-* Larger real-world projects
+* Larger software projects
 
 ---
 
-## 🎯 Why I Made This Repository
+## 🧠 How I Learn
 
-I believe the best way to learn programming is to actually build things.
+My approach is simple:
 
-Instead of only watching tutorials, I'm trying to turn the concepts I learn into small programs.
+```text
+Learn
+  ↓
+Understand
+  ↓
+Build
+  ↓
+Make mistakes
+  ↓
+Debug
+  ↓
+Improve
+  ↓
+Repeat
+```
 
-Some projects may look simple, but each one represents something I learned while developing my programming foundation.
+I try to solve problems myself before looking for solutions.
 
-This repository will continue to grow as my skills improve.
+Some programs in this repository may be basic, but each one represents a concept I learned and applied.
 
 ---
 
-## 💻 How to Run
+## 💻 Running the Projects
 
-Make sure Python is installed on your computer.
+Make sure Python is installed.
 
 Clone the repository:
 
@@ -171,13 +202,13 @@ Clone the repository:
 git clone https://github.com/Mann-1711/PYTHON-PROJECTS.git
 ```
 
-Move into the project folder:
+Enter the repository:
 
 ```bash
 cd PYTHON-PROJECTS
 ```
 
-Run any Python file:
+Run any project:
 
 ```bash
 python filename.py
@@ -186,18 +217,8 @@ python filename.py
 For example:
 
 ```bash
-python calculator.py
+python student_marks_calculator.py
 ```
-
----
-
-## 🧠 Learning Philosophy
-
-> **Learn → Build → Break → Debug → Improve → Repeat**
-
-I don't expect every program here to be perfect.
-
-The purpose of this repository is to show my progress, mistakes, experiments and improvement as I continue learning Python.
 
 ---
 
@@ -205,18 +226,22 @@ The purpose of this repository is to show my progress, mistakes, experiments and
 
 🚧 **Actively learning and updating**
 
-New projects will be added as I learn new Python concepts.
+New programs will be added as I learn new concepts and improve my problem-solving skills.
+
+This repository is a record of my progress — from beginner Python programs toward more structured software and eventually AI/ML development.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 About Me
 
 **Manraj Singh**
 
 BCA — Artificial Intelligence & Machine Learning
 
-GitHub: [@Mann-1711](https://github.com/Mann-1711)
+GitHub: **[@Mann-1711](https://github.com/Mann-1711)**
 
 ---
 
-⭐ If you want to see how a beginner's Python journey develops over time, feel free to explore the repository.
+> **Learn → Build → Debug → Improve → Repeat. 🐍**
+
+⭐ This repository documents the journey, not just the destination.
