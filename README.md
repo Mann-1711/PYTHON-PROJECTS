@@ -1,12 +1,12 @@
 # 🐍 PYTHON-PROJECTS
 
-A personal Python practice repository documenting my journey from **learning Python fundamentals to building small interactive programs and improving my problem-solving skills.**
+A personal Python practice repository documenting my journey from learning Python fundamentals to building small interactive programs and improving my problem-solving skills.
 
-> **Learn → Build → Break → Debug → Improve → Repeat**
+> Learn → Build → Break → Debug → Improve → Repeat
 
 ---
 
-## 🚀 About This Repository
+# 🚀 About This Repository
 
 This repository contains the Python projects I've built while learning programming.
 
@@ -18,34 +18,36 @@ The projects started with simple programs using variables, input, conditions and
 * Problem-solving
 * Interactive programs
 * Small management systems
+* Unit conversion
 * Git & GitHub
 
 The purpose of this repository isn't to make every project production-ready.
 
-It's to **show my actual progression as I learn.**
+It's to show my actual progression as I learn.
 
 ---
 
 # 📚 Projects
 
-| Project                             | What I Practiced                          |
-| ----------------------------------- | ----------------------------------------- |
-| 🧮 `calculator.py`                  | Basic arithmetic, input and conditions    |
-| 🧮 `Function_Calculator.py`         | Functions, parameters and operators       |
-| 🎯 `Quiz_game.py`                   | Conditions, user input and score tracking |
-| 📚 `manga_recommendation.py`        | Nested conditions and decision making     |
-| 🎮 `mini_game.py`                   | Game logic and randomization              |
-| 🎬 `movie_ticket.py`                | Conditions and price calculation          |
-| 🎥 `movies_list.py`                 | Lists and data handling                   |
-| 🔢 `multiplier.py`                  | Basic Python logic and arithmetic         |
-| 🔎 `num_finder.py`                  | Number-based problem solving              |
-| ⚖️ `odd_even.py`                    | Functions and conditional logic           |
-| 💰 `restaraunt_bill.py`             | Input, calculations and bill logic        |
-| ✊ `rock_paper_scissors.py`          | Game logic, conditions and randomization  |
-| 🛒 `shooping_bill.py`               | Calculations and conditional logic        |
-| 👨‍🎓 `student_marks_calculator.py` | Functions, parameters and mark analysis   |
-| 👨‍🎓 `student_record_manager.py`   | Student data and structured information   |
-| 💱 `Usd_to_ruppes.py`               | Functions, conversion and user input      |
+| Project                             | What I Practiced                            |
+| ----------------------------------- | ------------------------------------------- |
+| 🧮 `calculator.py`                  | Basic arithmetic, input and conditions      |
+| 🧮 `Function_Calculator.py`         | Functions, parameters and operators         |
+| 🎯 `Quiz_game.py`                   | Conditions, user input and score tracking   |
+| 📚 `manga_recommendation.py`        | Nested conditions and decision making       |
+| 🎮 `mini_game.py`                   | Game logic and randomization                |
+| 🎬 `movie_ticket.py`                | Conditions and price calculation            |
+| 🎥 `movies_list.py`                 | Lists and data handling                     |
+| 🔢 `multiplier.py`                  | Basic Python logic and arithmetic           |
+| 🔎 `num_finder.py`                  | Number-based problem solving                |
+| ⚖️ `odd_even.py`                    | Functions and conditional logic             |
+| 💰 `restaraunt_bill.py`             | Input, calculations and bill logic          |
+| ✊ `rock_paper_scissors.py`          | Game logic, conditions and randomization    |
+| 🛒 `shooping_bill.py`               | Calculations and conditional logic          |
+| 👨‍🎓 `student_marks_calculator.py` | Functions, parameters and mark analysis     |
+| 👨‍🎓 `student_record_manager.py`   | Student data and structured information     |
+| 💱 `Usd_to_ruppes.py`               | Functions, conversion and user input        |
+| 🌎 `unit_converter.py`              | Functions, conditionals and unit conversion |
 
 ---
 
@@ -63,7 +65,7 @@ The program considers things such as:
 
 and uses conditional logic to produce a recommendation.
 
-This was one of my first projects where I had to think about **how multiple conditions work together to create a decision-making system.**
+This was one of my first projects where I had to think about how multiple conditions work together to create a decision-making system.
 
 ---
 
@@ -93,7 +95,7 @@ It helped me understand:
 * Conditional logic inside functions
 * Program flow
 
-This was an important step from writing everything directly in the main program toward **breaking programs into reusable pieces.**
+This was an important step from writing everything directly in the main program toward breaking programs into reusable pieces.
 
 ---
 
@@ -109,15 +111,33 @@ It can calculate:
 * Lowest marks
 * Pass/Fail result
 
-This project helped me practice **decomposing one problem into multiple functions.**
+This project helped me practice decomposing one problem into multiple functions.
 
 ---
 
-## 👨‍🎓 Student Record Manager
+## 🌎 Unit Converter
 
-A practice project focused on working with student information and organizing data.
+A project built while practicing functions and applying mathematical formulas to real-world conversions.
 
-It represents my move toward building programs that manage more structured information rather than just performing one calculation.
+The converter currently supports:
+
+* Miles → Kilometers
+* Kilometers → Miles
+* Celsius → Fahrenheit
+* Fahrenheit → Celsius
+* Kilograms → Pounds
+
+This project helped me practice:
+
+* Functions
+* Parameters
+* User input
+* Conditional logic
+* Arithmetic operations
+* Conversion formulas
+* Organizing multiple related operations into one program
+
+It represents another step toward building programs that do more than perform a single calculation.
 
 ---
 
@@ -260,7 +280,7 @@ Some of the projects in this repository are simple.
 
 That's intentional.
 
-Each project represents **something I learned at that point in my journey.**
+Each project represents something I learned at that point in my journey.
 
 ---
 
@@ -279,20 +299,18 @@ DSA
    ↓
 SQL & Databases
    ↓
-Backend Development
-   ↓
 AI / ML
    ↓
-Larger Software Projects
+Software Engineering
 ```
 
-One of my long-term goals is to eventually build larger AI/software projects instead of only small practice programs.
+The goal is to gradually move from small beginner programs toward larger, structured software and eventually AI/ML systems.
 
 ---
 
-# 💻 How to Run
+# 💻 Running the Projects
 
-Make sure Python is installed on your computer.
+Make sure Python is installed.
 
 Clone the repository:
 
@@ -300,13 +318,13 @@ Clone the repository:
 git clone https://github.com/Mann-1711/PYTHON-PROJECTS.git
 ```
 
-Move into the project:
+Enter the repository:
 
 ```bash
 cd PYTHON-PROJECTS
 ```
 
-Run any Python file:
+Run any project:
 
 ```bash
 python filename.py
@@ -315,18 +333,18 @@ python filename.py
 For example:
 
 ```bash
-python student_marks_calculator.py
+python unit_converter.py
 ```
 
 ---
 
 # 📌 Repository Status
 
-🚧 **Actively Learning & Building**
+🚧 **Actively learning and updating**
 
-This repository will continue to grow as I learn new concepts and turn them into projects.
+New programs will be added as I learn new concepts and improve my problem-solving skills.
 
-The goal is to look back months from now and clearly see the difference between my **first Python programs and the software I eventually build.**
+This repository is a record of my progress — from beginner Python programs toward more structured software and eventually AI/ML development.
 
 ---
 
@@ -334,24 +352,10 @@ The goal is to look back months from now and clearly see the difference between 
 
 **Manraj Singh**
 
-🎓 BCA — Artificial Intelligence & Machine Learning
+BCA — Artificial Intelligence & Machine Learning
 
-📍 Lovely Professional University
+GitHub: **@Mann-1711**
 
-🐍 Currently building my Python fundamentals
+> Learn → Build → Debug → Improve → Repeat. 🐍
 
-🎯 Long-term interests: **AI/ML, Software Engineering & Problem Solving**
-
-GitHub: **Mann-1711**
-
----
-
-## ⭐ The Goal
-
-This isn't a collection of perfect programs.
-
-It's a record of **progress.**
-
-> **Start small. Build consistently. Learn from every mistake.**
-
-**One project at a time. 🐍**
+⭐ This repository documents the journey, not just the destination.
