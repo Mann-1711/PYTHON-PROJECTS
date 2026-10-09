@@ -2,9 +2,6 @@
 # Now I'm gonna make this recommender again with the new things i had leant.
 #print("WELCOME TO MY MANGA RECOMMENDER PROGRAM ")
 #print("\nPLEASE SELECT YOUR PREFFERNCE FOR FINDING BEST MANGA'S TO READ")
-#genre=input("ENTER THE GENRE WHICH INTEREST YOU THE MOST[ACTION,SUPERNATURAL,ROMANCE,SPORTS]:").lower()
-#length=input("ENTER THE LENGTH YOU WOULD PREFFER FOR MANGA[SHORT(100-400),MEDIUM(500-800),LONG(800-1,000)]:").lower()
-#story=input("THE OVERALL MOOD OF STORY YOU WOULD LIKE TO READ[SAD,HAPPY,MINDBENDING]:").lower()
 manga_database = [
     {"title": "One Piece", "genre": "action", "length": "long", "rating": 9.5},
     {"title": "Naruto", "genre": "action", "length": "long", "rating": 9.0},
@@ -27,6 +24,11 @@ manga_database = [
 ]
 def show_manga(list,idx):
     while(idx<len(list)):
-        print(list[idx])
+        print(idx+1,list[idx]["title"])
         idx+=1
 show_manga(manga_database,0)
+genre=input("ENTER THE GENRE WHICH INTEREST YOU THE MOST[ACTION,SUPERNATURAL,ROMANCE,SPORTS]:").lower()
+length=input("ENTER THE LENGTH YOU WOULD PREFFER FOR MANGA[SHORT(100-400),MEDIUM(500-800),LONG(800-1,000)]:").lower()
+def get_prefrence(ans,ans2):
+    print("you had selected this genre:",ans,ans2)
+get_prefrence(genre,length)
