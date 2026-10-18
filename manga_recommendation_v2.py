@@ -1,12 +1,12 @@
 # So this is the version 2 of my manga recommendation system which i made few months ago it was purely made using if/else statements.
 # Now I'm gonna make this recommender again with the new things i had leant.
-#print("WELCOME TO MY MANGA RECOMMENDER PROGRAM ")
-#print("\nPLEASE SELECT YOUR PREFFERNCE FOR FINDING BEST MANGA'S TO READ")
+print("WELCOME TO MY MANGA RECOMMENDER PROGRAM ")
+print("\nPLEASE SELECT YOUR PREFFERNCE FOR FINDING BEST MANGA'S TO READ")
 manga_database = [
     {"title": "One Piece", "genre": "action", "length": "long", "rating": 9.5},
     {"title": "Naruto", "genre": "action", "length": "long", "rating": 9.0},
-    {"title": "Attack on Titan", "genre": "action", "length": "long", "rating": 9.4},
-    {"title": "Demon Slayer", "genre": "action", "length": "medium", "rating": 8.7},
+    {"title": "Attack on Titan", "genre": "action", "length": "medium", "rating": 9.4},
+    {"title": "Demon Slayer", "genre": "action", "length": "short", "rating": 8.7},
 
     {"title": "Jujutsu Kaisen", "genre": "supernatural", "length": "medium", "rating": 8.8},
     {"title": "Death Note", "genre": "supernatural", "length": "short", "rating": 9.3},
@@ -19,16 +19,29 @@ manga_database = [
     {"title": "Blue Box", "genre": "romance", "length": "medium", "rating": 8.5},
 
     {"title": "Blue Lock", "genre": "sports", "length": "long", "rating": 9.0},
-    {"title": "Haikyuu!!", "genre": "sports", "length": "long", "rating": 9.3},
+    {"title": "Haikyuu!!", "genre": "sports", "length": "short", "rating": 9.3},
     {"title": "Slam Dunk", "genre": "sports", "length": "medium", "rating": 9.2}
 ]
 def show_manga(list,idx):
+    print("These are the available mangas:")
     while(idx<len(list)):
         print(idx+1,list[idx]["title"])
         idx+=1
 show_manga(manga_database,0)
 genre=input("ENTER THE GENRE WHICH INTEREST YOU THE MOST[ACTION,SUPERNATURAL,ROMANCE,SPORTS]:").lower()
 length=input("ENTER THE LENGTH YOU WOULD PREFFER FOR MANGA[SHORT(100-400),MEDIUM(500-800),LONG(800-1,000)]:").lower()
-def get_prefrence(ans,ans2):
+found=False
+def get_preference(ans,ans2):
     print("you had selected this genre:",ans,ans2)
-get_prefrence(genre,length)
+get_preference(genre,length)
+def recommend_manga(list,gen,length,):
+    i=0
+    while(i<len(manga_database)):
+      if(list[i]["genre"]==gen and list[i]["length"]==length):
+        print("My recommendation is:",list[i]["title"])
+        print("Its's rating is:",list[i]["rating"])
+        found=True
+      i+=1
+recommend_manga(manga_database,genre,length)
+if(found==False):
+   print("Nothing Found")
