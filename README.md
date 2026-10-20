@@ -2,32 +2,38 @@
 
 A growing collection of Python projects documenting my journey from beginner programming fundamentals toward stronger problem-solving and software development skills.
 
-> **Learn → Build → Debug → Improve → Repeat**
+> **Learn → Build → Debug → Understand → Improve**
 
 ## 👋 About This Repository
 
 This repository contains Python programs I've built while learning to code.
 
-Each project represents a concept I've practised, a problem I've tried to solve, or a new step in my programming journey. My focus is not simply to make programs work, but to understand the logic behind them and improve through debugging.
+Each project represents a concept I've practised, a problem I've tried to solve, or a new step in my programming journey. My goal is not simply to make programs work, but to understand the logic behind them and improve through debugging.
 
-### 🎯 Current Focus
+I'm building these projects step by step, strengthening my foundations before moving toward more advanced software engineering and AI/ML projects.
+
+## 🎯 Current Focus
 
 - Strengthening Python fundamentals
-- Writing reusable functions
-- Working with lists and dictionaries
+- Practising loops, functions, and recursion
 - Improving logical thinking and debugging
-- Building projects independently
+- Working with lists and dictionaries
+- Building interactive command-line programs
+- Writing reusable and understandable code
 - Practising Git and GitHub
+- Becoming more independent at problem-solving
 
 ## 📂 Project Collection
 
 | Project | Concepts Practised |
 |---|---|
-| `calculator.py` | Arithmetic, input and conditionals |
-| `Function_Calculator.py` | Functions, parameters and operators |
+| `calculator.py` | Arithmetic, input, and conditionals |
+| `Function_Calculator.py` | Functions, parameters, and operators |
 | `Number_Analyzer.py` | Number analysis and problem-solving |
-| `Quiz_game.py` | User input, conditions and scoring |
-| `manga_recommendation.py` | Preferences, conditions and recommendation logic |
+| `Quiz_game.py` | User input, conditions, and scoring |
+| `manga_recommendation.py` | Preferences and recommendation logic |
+| `manga_recommendation_v2.py` | Dictionaries, filtering, functions, and multiple conditions |
+| `Recursive_Number_Explorer.py` | Recursion, base cases, countdown, sum, and factorial |
 | `mini_game.py` | Game logic and randomization |
 | `movie_ticket.py` | Conditional logic and price calculation |
 | `movies_list.py` | Lists and data handling |
@@ -35,53 +41,75 @@ Each project represents a concept I've practised, a problem I've tried to solve,
 | `num_finder.py` | Number-based problem-solving |
 | `odd_even.py` | Functions and conditional logic |
 | `restaraunt_bill.py` | Calculations and bill logic |
-| `rock_paper_scissors.py` | User input, conditions and randomization |
+| `rock_paper_scissors.py` | User input, conditions, and randomization |
 | `shooping_bill.py` | Calculations and conditional logic |
 | `student_marks_calculator.py` | Functions and marks analysis |
 | `student_record_manager.py` | Structured student information |
 | `Usd_to_ruppes.py` | Currency conversion and calculations |
 | `unit_convertor.py` | Unit conversion and mathematical formulas |
 
-*The repository will continue to evolve as I improve existing programs and build new ones.*
+*This collection will continue to evolve as I build new projects and improve existing ones.*
 
 ## ⭐ Featured Projects
 
-### 📚 Manga Recommendation System
+### 📚 Manga Recommendation System — V2
 
-One of my most meaningful practice projects because it combines multiple concepts into a single program.
+A recommendation program that uses user preferences to filter a manga database.
 
-**What I'm practising:**
-- Organizing data using lists and dictionaries
-- Taking user preferences as input
-- Matching multiple conditions
+**Concepts practised:**
+- Organizing information using dictionaries
+- Storing multiple manga entries in a list
+- Collecting and normalizing user input
+- Matching genre and length preferences
+- Combining conditions using `and`
 - Using functions to organize program logic
+- Tracking matches with a Boolean flag
 - Handling cases where no recommendations match
 
-I'm developing a newer version as I learn additional Python concepts, with an emphasis on understanding the logic rather than copying a finished solution.
+The project helps me practise turning a real-world idea into structured program logic.
+
+**File:** `manga_recommendation_v2.py`
+
+### 🔁 Recursive Number Explorer
+
+A mini-project designed to help me understand recursion through practical examples.
+
+**Features:**
+- Recursive countdown
+- Sum of natural numbers using recursion
+- Factorial calculation using recursion
+
+**Concepts practised:**
+- Base cases and recursive cases
+- Function calls and return values
+- Breaking a problem into smaller problems
+- Understanding how recursive calls return results
+
+**File:** `Recursive_Number_Explorer.py`
 
 ### 🧮 Function Calculator
 
-A project focused on moving from writing code directly in the main program to organizing logic into reusable functions.
+A calculator focused on organizing operations into reusable functions.
 
-**Concepts:** function definitions, parameters, arguments, operators and conditional logic.
-
-### 👨‍🎓 Student Marks Calculator
-
-A practice project for working with marks and calculations.
-
-**Concepts:** functions, arithmetic, comparisons and result analysis.
+**Concepts:** Function definitions, parameters, arguments, operators, and conditional logic.
 
 ### 🎮 Rock Paper Scissors
 
 An interactive game that helped me practise translating rules into working program logic.
 
-**Concepts:** user input, conditional statements, randomization and decision-making.
+**Concepts:** User input, conditional statements, randomization, and decision-making.
+
+### 👨‍🎓 Student Marks Calculator
+
+A practice project for working with marks, calculations, and result analysis.
+
+**Concepts:** Functions, arithmetic, comparisons, and conditional logic.
 
 ### 🗂️ Student Record Manager
 
-A step toward working with structured information rather than only performing individual calculations.
+A project focused on organizing structured student information.
 
-**Concepts:** data organization and working with student records.
+**Concepts:** Data organization, records, dictionaries, and basic program logic.
 
 ## 📈 My Learning Roadmap
 
@@ -91,7 +119,7 @@ A step toward working with structured information rather than only performing in
 - Operators and calculations
 
 ### Stage 2 — Decision Making
-- `if`, `elif` and `else`
+- `if`, `elif`, and `else`
 - Comparison operators
 - Logical operators
 - Nested conditions
@@ -107,11 +135,12 @@ A step toward working with structured information rather than only performing in
 - `break` and `continue`
 - Repeated operations and iteration
 
-### Stage 5 — Functions
+### Stage 5 — Functions and Recursion
 - Defining and calling functions
 - Parameters and arguments
 - Return values
-- Scope and reusable logic
+- Variable scope
+- Base cases and recursive cases
 - Breaking problems into smaller parts
 
 ### Stage 6 — Object-Oriented Programming
@@ -119,7 +148,7 @@ My next major learning goal:
 - Classes and objects
 - Constructors and instance attributes
 - Methods
-- Encapsulation, inheritance and polymorphism
+- Encapsulation, inheritance, and polymorphism
 
 ### Stage 7 — Data Structures and Algorithms
 After strengthening my programming foundation:
@@ -129,25 +158,26 @@ After strengthening my programming foundation:
 - Interview-style practice
 
 ### Long-Term Direction
+
 Python fundamentals → OOP → DSA → Databases → Software Engineering → AI/ML Projects
 
 *This roadmap represents my learning direction, not a claim that every topic has already been mastered.*
 
 ## 🧠 How I Approach Programming
 
-I want to develop the ability to solve problems independently instead of relying on complete solutions.
+I want to develop the ability to solve problems independently rather than relying on complete solutions.
 
-My approach is:
+My approach:
 
 1. Understand the problem.
 2. Break it into smaller steps.
 3. Attempt a solution independently.
-4. Test the logic.
+4. Test the logic with different inputs.
 5. Debug errors and understand why they occurred.
 6. Improve the solution.
 7. Apply what I learned to the next project.
 
-Simple projects are part of this process. They give me opportunities to practise fundamentals before moving on to more complex systems.
+Simple projects are an important part of this process. They help me build confidence with fundamentals before moving on to more complex systems.
 
 ## 🛠️ Technologies and Tools
 
@@ -165,38 +195,33 @@ Simple projects are part of this process. They give me opportunities to practise
 
 ```bash
 git clone https://github.com/Mann-1711/PYTHON-PROJECTS.git
-```
-
-Enter the project directory:
-
-```bash
 cd PYTHON-PROJECTS
 ```
 
-Run a Python file:
+### Run a project
 
 ```bash
 python calculator.py
 ```
 
-Replace `calculator.py` with the filename of the project you want to run. Some projects may require user input through the terminal.
+To run another project, replace `calculator.py` with its filename. Some programs require input through the terminal.
 
 ## 📌 Repository Status
 
 **Status:** Actively learning and building.
 
-This repository is a record of my progress, from small beginner programs toward more structured software projects. I plan to revisit older projects, improve their design, and apply new concepts as my skills develop.
+This repository documents my progression from small beginner programs toward more structured projects. I plan to revisit older programs, improve their design, and apply new concepts as my skills develop.
 
 ## 👨‍💻 About Me
 
-**Manraj Singh**
+I'm a BCA Artificial Intelligence and Machine Learning student at Lovely Professional University.
 
-- 🎓 BCA — Artificial Intelligence and Machine Learning
-- 🏫 Lovely Professional University
-- 🐍 Currently strengthening my Python and programming fundamentals
-- 🎯 Long-term interests: Software Engineering, AI/ML and problem-solving
+- 🐍 Building stronger Python and programming fundamentals
+- 💻 Practising C programming
+- 🧠 Developing independent problem-solving skills
+- 🚀 Working toward software engineering and AI/ML projects
 
-GitHub: [@Mann-1711](https://github.com/Mann-1711)
+**GitHub:** [@Mann-1711](https://github.com/Mann-1711)
 
 ---
 
